@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project College</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        body {
+            /* background-color: rgb(37, 36, 41); */
+            /* font-family: Georgia, Times, 'Times New Roman', serif; */
+            background-color: black;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        header {
+            color: white;
+            z-index: 1;
+            position: fixed;
+            top: 0px;
+            width: 100%;
+        }
+
+        footer {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .skill:hover {
+            /* transform: scale(1.02); */
+            transform: translateY(-15px);
+            transition: all 0.9s ease-in-out;
+            border-radius: 200px;
+            box-shadow: 0 0 20px #f8cb01;
+            /* filter: drop-shadow(3px 3px 7px #f8cb01);   */
+        }
+
+        .skill1:hover {
+            /* transform: scale(1.02); */
+            transform: translateY(-15px);
+            transition: all 0.9s ease-in-out;
+            border-radius: 200px;
+            box-shadow: 0 0 20px #f8cb01;
+            transform: scale(1.5);
+            /* filter: drop-shadow(3px 3px 7px #f8cb01);   */
+        }
+
+        .hera {
+            width: 0px;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: text 5s steps(30)infinite;
+            font-size: 100px;
+            text-shadow: 2px 3px 4px white;
+            margin: 0px;
+        }
+
+        @keyframes text {
+            0% {
+                width: 0ch;
+            }
+
+            50% {
+                width: 29ch;
+            }
+        }
+        .myImage:hover{
+            transform: scale(1.1);
+            transition: transform 1s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- navbar start -->
+
+    <header>
+
+        <nav class="navbar navbar-expand-sm navbar-light p-3"
+            style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;background-color: black;">
+            <div class="container-fluid">
+
+                <a href="#" class="navbar-brand" style="font-weight: bold;font-size: 30px;color:#f8cb01">Profile</a>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- </div> -->
+                <div class="collapse navbar-collapse" id="collapseNavbar">
+
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Proj" class="nav-link text-light">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#pari" class="nav-link text-light">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#About" class="nav-link text-light">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#hobby" class="nav-link text-light">Hobbies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link text-light">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- navbar complete -->
+
+    <div class="container-fluid text-dark"
+        style="margin-top: 0px;background-image: url(https://t3.ftcdn.net/jpg/01/93/30/78/240_F_193307850_Ohzn4ILra9FbnqNaEgR0Dz0iprl0crJr.jpg);background-repeat: no-repeat;background-size: cover;">
+        <!-- https://tse4.mm.bing.net/th/id/OIP.dSzAS7uKvdfhoDsR_Upp2wHaEZ?pid=Api&P=0&h=180 -->
+        <!--  -->
+        <!-- https://tse4.mm.bing.net/th/id/OIP.2NGc84kViRPniVM0AAKZFgHaEK?pid=Api&P=0&h=180 -->
+
+
+        <div class="row mt-5 pb-5 text-dark">
+            <div class="col pt-5 justify-content-center col-lg-7 col-md-6 col-sm-12 p-5" style="text-align: justify;">
+                <h1 class="text-light mt-5">Hi There</h1>
+                <span style="font-weight: 80px;font-size: 50px;color:#fff;">I'M</span>
+                <br>
+                <h2 style="font-weight: 40px;font-size: 70px;color:#f8cb01;font-style: italic;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif"
+                    class="hera">
+                    PARI YADAV</h2>
+                <p class="lead text-light">I am a BCA student studying in Star Infotech College. I am passionate about
+                    web
+                    development and love
+                    creating beautiful and functional websites. In my free time, I enjoy exploring new technologies and
+                    enhancing my skills.
+                </p>
+                <div class="container mt-3 justify-content-center">
+
+                    <button type="button" class="btn btn-light rounded-pill btn-lg border border-4 border-warning"
+                        style="border-color: #f8cb01;"><a href="resume.html" class="text-decoration-none text-dark">CV
+                            Resume</a></button>
+                </div>
+
+                
+            </div>
+            <div class="col text-center col-lg-5 col-md-6 col-sm-12 p-5 mt-5 pt-5 myImage">
+                <img src="images/pari5.png"
+                    class="image-fluid m-auto p-auto mt-auto rounded-pill border border-warning border-5 border-start-0 border-top-0 mt-5"
+                    alt="My IMAGE HERE" style="height: 300px;width: 300px;filter: drop-shadow(8px 8px 16px #f8cb0180);">
+            </div>
+        </div>
+    </div>
+
+
+<div class="container-fluid" style="background-image: url(https://t3.ftcdn.net/jpg/02/37/41/38/240_F_237413804_8BhnnLGOEdeRQCw4DX9k5sJcjIh5oTnn.jpg);background-repeat: no-repeat;background-size: cover;">
+    <div class="row mt-5">
+        <div class="col text-center m-4">
+            <h2 id="About" style="font-weight: 40px;font-size: 50px;text-decoration: underline;color:#f8cb01">About Me
+            </h2>
+            <br>
+            <p class="text-light" style="font-size: 20px;text-align: justify;">
+                I am a motivated Bachelor of Computer Applications (BCA) student at Star Infotech College, currently pursuing my first year and first semester, with a strong academic foundation and a keen inclination toward technology-driven problem solving. Having secured 93.40% in Senior Secondary Education in Commerce with Computer Science, I demonstrate consistent academic excellence, discipline, and analytical rigor. My technical proficiency includes HTML, CSS, Bootstrap, and C programming, enabling me to design responsive, structured, and visually coherent web interfaces while also understanding core programming logic and memory-oriented concepts.
+
+I possess effective communication skills, a strong sense of responsibility, and the ability to collaborate productively within a team environment. My self-discipline and organizational mindset allow me to manage tasks efficiently and meet deadlines without compromising quality. I am deeply interested in continuous learning and skill enhancement, particularly in applying theoretical knowledge to practical, real-world scenarios. I seek opportunities such as internships or entry-level roles where I can contribute meaningfully, refine my technical expertise, and grow into a competent and dependable software professional with long-term career aspirations in the IT industry.
+            </p>
+        </div>
+    </div>
+<!-- </div>
+
+
+    
+
+    <div class="container-fluid mb-4 p-5" style="background-image: url(https://t3.ftcdn.net/jpg/16/53/56/42/240_F_1653564267_B0m2Nvzg0COi4DghCwO6angFB2SoePMw.jpg);background-repeat: no-repeat;background-size: cover;"> -->
+        <h4 class="text-center mb-5 mt-5" style="font-size: 40px;text-decoration: underline;color:#f8cb01;font-weight: bold;">
+        About My Academics and Skills</h4>
+        <div class="row">
+            <div class="col col-xs-12 col-sm-6 col-md-3" style="height:300px;">
+                <nav id="navbar-example3"
+                    class="rounded navbar navbar-light text-light flex-column align-items-stretch p-5 m-auto"
+                    style="background-color: white;filter: drop-shadow(3px 3px 7px #fff);">
+
+                    <nav class="nav nav-pills flex-column">
+
+                        <a class="nav-link text-dark" href="#item-1" style="font-size: 20px;">Academics</a>
+                        <a class="nav-link text-dark" href="#item-2" style="font-size: 20px;">Tech Skills</a>
+                        <a class="nav-link text-dark" href="#item-3" style="font-size: 20px;">Soft Skills</a>
+
+                    </nav>
+                </nav>
+            </div>
+            <div class="rounded col-xs-12 col-sm-6 col-md-9 text-dark bg-light p-5"
+                style="height: 350px; overflow-y: scroll;filter: drop-shadow(3px 3px 7px #fff);">
+                <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0">
+                    <h2 class="text-center text-dark" id="item-1"
+                        style="text-decoration: underline;color:#f8cb01;font-weight: bold;font-size: 40px;">ACADEMICS
+                    </h2>
+                    <br>
+                    <h2 style="text-decoration: underline;"><i class="fa-solid fa-graduation-cap"></i> Graduation</h2>
+                    <button
+                        class="btn btn-border-dark btn-sm text-dark border border-dark rounded-pill">2025-Present</button>
+                    <br>
+                    <b style="font-size: 23px;">Bachelor of Computer Applications</b>
+                    <p>Star Infotech College</p>
+                    <p>Ist Year Ist Semester (running)</p>
+                    <h2 style="text-decoration: underline;"><i class="fa-solid fa-building-columns"
+                            style="font-size: 23px;"></i> Senoir Secondary Education</h2>
+
+                    <button
+                        class="btn btn-border-dark btn-sm text-dark border border-dark rounded-pill">2022-23</button><br>
+                    <p>Stream : Commerce with Computer Science</p>
+                    <p>Percentage : 93.40%</p>
+
+                    <p>Girls Govt.Senior Secondary School , Kishangarh</p>
+                    <h2 style="text-decoration: underline;"><i class="fa-solid fa-school" style="font-size: 23px;"></i>
+                        Secondary</h2>
+                    <button
+                        class="btn btn-border-dark btn-sm text-dark border border-dark rounded-pill">2024-25</button><br>
+                    <!-- <b>Secondary Education</b> -->
+                    <p>Mahatma Gandhi School , Kishangarh</p>
+                    <p>Percentage : 83.83%</p>
+                    <hr>
+                    <h2 id="item-2" style="text-decoration: underline;">Tech Skills</h2>
+
+                    <dl>
+
+                        <!-- <dd>
+                            <h4>Frontend : </h4>
+                        </dd> -->
+                        <dd style="font-size: 23px;">&nbsp;*CSS
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark border border-1"
+                                    style="width:42%;">
+                                </div>
+                            </div>
+                        </dd>
+                        <dd style="font-size: 23px;">&nbsp;*HTML
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark border border-1"
+                                    style="width:52%;">
+                                </div>
+                            </div>
+                        </dd>
+                        <dd style="font-size: 23px;">&nbsp;*BOOTSTRAP
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark border border-1"
+                                    style="width:37%;">
+                                </div>
+                            </div>
+                        </dd>
+                        <dd style="font-size: 23px;">&nbsp;*C
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark border border-1"
+                                    style="width:42%;">
+                                </div>
+                            </div>
+                        </dd>
+                    </dl>
+
+                    <hr>
+                    <h2 id="item-3" style="text-decoration: underline;">Soft Skills</h2>
+                    <dl>
+                        <dd style="font-size: 20px;">* Communition skills</dd>
+                        <dd style="font-size: 20px;">* Self-discipline</dd>
+                        <dd style="font-size: 20px;">* Team management skills</dd>
+                        <dd style="font-size: 20px;">* Responsible & Organized</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <!-- </div>
+        </div> -->
+    </div>
+
+
+
+
+    <div class="container-fluid" style="background-image: url(https://t3.ftcdn.net/jpg/16/68/55/58/240_F_1668555874_fE5IBFa7A1O39SOX6dRQlPGinlf0XpEA.jpg);background-repeat: no-repeat;background-size: cover;">
+        <div class="row mt-5">
+            <div class="col text-center m-4" style="color:#fff;">
+                <h2 class="mt-5 mb-5" id="Proj" style="font-size: 50px;font-weight:50px;text-decoration: underline;color:#f8cb01">
+                    Projects</h2>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col text-center mt-4">
+                <div class="card border border-warning border-2 border-start-0 border-top-0"
+                    style="filter: drop-shadow(3px 3px 7px #f8cb01);">
+                    <div class="card-body">
+                        <br>
+                        <br>
+                        <img src="images/dia1.png" alt="Project Image" style="height:300px;width:250px;"
+                            class="image-fluid rounded-3 border border-1 border-dark skill1">
+                        <br>
+                        <button type="button" class="btn btn-light btn-lg text-center rounded-pill
+                    "><a href="pages/main.html" class="text-decoration-none" style="justify-content: center;">Veiw</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col text-center mt-4">
+                <div class="card border border-warning border-2 border-start-0 border-top-0"
+                    style="filter: drop-shadow(3px 3px 7px #f8cb01);">
+                    <div class="card-body">
+                        <br><br>
+                        <img src="images/Pic1.png" alt="Project Image" style="height:300px;width:250px;"
+                            class="image-fluid rounded-3 border border-1 border-dark skill1">
+                        <br>
+                        <button type="button" class="btn btn-light btn-lg text-center rounded-pill
+                    "><a href="pages/diamondtem.html" class="text-decoration-none"
+                                style="justify-content: center;">Veiw</a> </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col text-center mt-4">
+                <div class="card border border-warning border-2 border-start-0 border-top-0"
+                    style="filter: drop-shadow(3px 3px 7px #f8cb01);">
+                    <div class="card-body">
+                        <br><br>
+                        <img src="images/Pic4.png" alt="Project Image" style="height:300px;width:250px;"
+                            class="image-fluid rounded-3 border border-1 border-dark skill1">
+                        <br>
+                        <button type="button" class="btn btn-light btn-lg text-center rounded-pill
+                    "><a href="pages/starinfo.html" class="text-decoration-none"
+                                style="justify-content: center;">Veiw</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="container-fluid" style="background-image: url(https://t3.ftcdn.net/jpg/16/68/55/58/240_F_1668555874_fE5IBFa7A1O39SOX6dRQlPGinlf0XpEA.jpg);background-repeat: no-repeat;background-size: cover;">
+        <div class="row mt-5">
+            <div class="col text-center m-4" style="color:#fff;">
+                <h2 class="mt-5 mb-5" style="font-size: 50px;font-weight:50px;text-decoration: underline;color:#f8cb01">Skills
+                </h2>
+            </div>
+        </div>
+        <div class="row mt-2"  id="pari">
+            <div class="col text-center m-4">
+                <div class="card skill border border-warning border-2 border-start-0 border-top-0"
+                    style="filter: drop-shadow(3px 3px 7px #f8cb01);">
+                    <div class="card-body">
+                        <i class="fa-brands fa-html5 fa-2xl" style="color: #e7650d;"></i>
+                        <p style="font-size: 30px;">HTML</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col text-center m-4">
+                <div class="card skill border border-warning border-2 border-start-0 border-top-0"
+                    style="filter: drop-shadow(3px 3px 7px #f8cb01);">
+                    <div class="card-body">
+                        <i class="fa-brands fa-css3-alt fa-2xl" style="color: #74C0FC;"></i>
+                        <p style="font-size: 30px;">CSS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col text-center m-4">
+                <div class="card skill border border-warning border-2 border-start-0 border-top-0"
+                    style="filter: drop-shadow(3px 3px 7px #f8cb01);">
+                    <div class="card-body">
+                        <i class="fa-brands fa-bootstrap fa-2xl" style="color: rgb(99, 240, 5);"></i>
+                        <p style="font-size: 30px;">BOOTSTRAP</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col text-center m-4">
+                <div class="card skill border border-warning border-2 border-start-0 border-top-0"
+                    style="filter: drop-shadow(3px 3px 7px #f8cb01);">
+                    <div class="card-body">
+                        <i class="fa-solid fa-c fa-2xl" style="color: #74C0FC;"></i>
+                        <p style="font-size: 30px;">C</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid" style="background-image: url(https://t3.ftcdn.net/jpg/16/68/55/58/240_F_1668555874_fE5IBFa7A1O39SOX6dRQlPGinlf0XpEA.jpg);background-repeat: no-repeat;background-size: cover;">
+        <div class="row mt-5">
+            <div class="col text-center m-4" style="color:#fff;">
+                <h2 class="mt-5 mb-5" id="hobby" style="font-size: 45px;font-weight:50px;text-decoration: underline;color:#f8cb01">Hobbies
+                </h2>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col text-center m-4">
+                <div class="card skill border border-warning border-2 border-start-0 border-top-0"
+                    style="filter: drop-shadow(3px 3px 7px #f8cb01);">
+                    <div class="card-body">
+                        <br>
+                        <img class="image-fluid rounded-5 border border-1 border-dark"
+                            style="color: #e7650d;height:300px;width:250px;"
+                            src="https://th.bing.com/th/id/OIP.1l-4js9BdJAxlyzbBXfPaAHaJ4?w=184&h=245&c=7&r=0&o=7&pid=1.7&rm=3"
+                            alt="Painting Icon">
+                        <p style="font-size: 30px;">Painting</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col text-center m-4">
+                <div class="card skill border border-warning border-2 border-start-0 border-top-0"
+                    style="filter: drop-shadow(3px 3px 7px #f8cb01);">
+                    <div class="card-body">
+                        <br>
+                        <img class="image-fluid rounded-5 border border-1 border-dark"
+                            style="color: #e7650d;height:300px;width:250px;"
+                            src="https://th.bing.com/th/id/OIP.MziRVCm3N0MrEgyZQyVQygHaLH?w=184&h=276&c=7&r=0&o=7&pid=1.7&rm=3"
+                            alt="Painting Icon">
+                        <p style="font-size: 30px;">Music</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col text-center m-4">
+                <div class="card skill border border-warning border-2 border-start-0 border-top-0"
+                    style="filter: drop-shadow(3px 3px 7px #f8cb01);">
+                    <div class="card-body">
+                        <br>
+                        <img class="image-fluid rounded-5 border border-1 border-dark"
+                            style="color: #e7650d;height:300px;width:250px;"
+                            src="https://th.bing.com/th/id/OIP.T09rCePopJEH4wK6ncOwgQHaEK?w=296&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+                            alt="Painting Icon">
+                        <p style="font-size: 30px;">Gaming</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col text-center m-4">
+                <div class="card skill border border-warning border-2 border-start-0 border-top-0"
+                    style="filter: drop-shadow(3px 3px 7px #f8cb01);">
+                    <div class="card-body">
+                        <br>
+                        <img class="image-fluid rounded-5 border border-1 border-dark"
+                            style="color: #e7650d;height:300px;width:250px;"
+                            src="https://th.bing.com/th/id/OIP._BMe_U6k3QNhJVIXIiorswHaLH?w=184&h=276&c=7&r=0&o=7&pid=1.7&rm=3"
+                            alt="Painting Icon">
+                        <p style="font-size: 30px;">Badminton</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col text-center m-4">
+                <div class="card skill border border-warning border-2 border-start-0 border-top-0"
+                    style="filter: drop-shadow(3px 3px 7px #f8cb01);">
+                    <div class="card-body">
+                        <br>
+                        <img class="image-fluid rounded-5 border border-1 border-dark"
+                            style="color: #e7650d;height:300px;width:250px;"
+                            src="https://th.bing.com/th/id/OIP.yh8cCvUXBgAz9aAlsB0rjQHaHa?w=196&h=196&c=7&r=0&o=7&pid=1.7&rm=3"
+                            alt="Painting Icon">
+                        <p style="font-size: 30px;">Chess</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col text-center m-4">
+                <div class="card skill border border-warning border-2 border-start-0 border-top-0"
+                    style="filter: drop-shadow(3px 3px 7px #f8cb01);">
+                    <div class="card-body">
+                        <br>
+                        <img class="image-fluid rounded-5 border border-1 border-dark"
+                            style="color: #e7650d;height:300px;width:250px;"
+                            src="https://th.bing.com/th/id/OIP.qzVZluHcqJ-tfke6cvb6owHaLH?w=184&h=276&c=7&r=0&o=7&pid=1.7&rm=3"
+                            alt="Painting Icon">
+                        <p style="font-size: 30px;">Reading</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- <div class="container-fluid pb-3" style="background-color: rgb(39, 39, 39);">
+        <div class="row">
+            <div class="col mt-5">
+                <h2 class="text-center text-primary" id="edu">Resume</h2>
+                <h5 style="font-weight: 100;" class="text-center">Explore my journey, skills, and
+                    experience showcased in a detailed resume.</h5>
+            </div>
+        </div>
+
+        <div class="row text-white m-5 ">
+            <div class="col p-3 border border-light border-2">
+                <h3>Academic Achievements</h3>
+                <button
+                    class="btn btn-border-light btn-sm text-light border border-light rounded-pill">2025-Present</button>
+                <br>
+                <b>Bachelor of Computer Applications</b>
+                <p>Star Infotech College</p>
+                <button
+                    class="btn btn-sm btn-border-light text-light border border-light rounded-pill">2022-23</button><br>
+                <b>Senior Secondary Education</b>
+                <p>Girls Govt.Senior Secondary School , Kishangarh</p>
+                <button
+                    class="btn btn-sm btn-border-light text-light border border-light rounded-pill">2024-25</button><br>
+                <b>Secondary Education</b>
+                <p>Mahatma Gandhi School , Kishangarh</p>
+            </div>
+            <div class="col p-3 border border-light border-2" id="skill">
+
+                <dl>
+                    <dt>
+                        <h3>Tech Skills</h3>
+                    </dt>
+                    <dd>
+                        <h4>* Frontend : </h4>
+                    </dd>
+                    <dd>&nbsp;*CSS
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark border border-1"
+                                style="width:42%;">
+                            </div>
+                        </div>
+                    </dd>
+                    <dd>&nbsp;*HTML
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark border border-1"
+                                style="width:52%;">
+                            </div>
+                        </div>
+                    </dd>
+                    <dd>&nbsp;*BOOTSTRAP
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark border border-1"
+                                style="width:37%;">
+                            </div>
+                        </div>
+                    </dd>
+                    <dd>&nbsp;*C
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark border border-1"
+                                style="width:42%;">
+                            </div>
+                        </div>
+                    </dd>
+                </dl>
+            </div>
+            <div class="col p-3 border border-light border-2">
+
+                <dl>
+                    <dt>
+                        <h3>Soft Skills</h3>
+                    </dt>
+                    <dd>* Communition skills</dd>
+                    <dd>* Self-discipline</dd>
+                    <dd>* Team management skills</dd>
+                    <dd>* Responsible & Organized</dd>
+                </dl>
+            </div>
+        </div>
+    </div> -->
+    <!-- </div> -->
+    <footer class="container-fluid text-center mb-5 mt-5" id="contact">
+        <div class="container-fluid text-light">
+            <h3 class="text-center" style="text-decoration: underline;color:#f8cb09;font-size: 50px;">Get In Touch</h3></br>
+            <div class="m-auto bg-light text-dark rounded-5 p-5" style="width: 80%; text-align: left;">
+                <form class="p-1">
+                    
+                    <div class="mb-3">
+                        <label for="pwd" class="form-label">Name:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter Name " name="name">
+                    </div>
+                    <div class="mb-3 mt-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="pwd" class="form-label">Feedback:</label>
+                        <input type="text" class="form-control" id="feed" placeholder="Enter feedback" name="feed">
+                    </div>
+                    <div class="form-check mb-3">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <br><br>
+            <h2 class="text-light">Contact Me</h2>
+            <br>
+            <p>Phone Number : 9983098510</p>
+            <p>Email : <a href="#">py215618@gmail.com</a></p>
+
+            <p>Address : Patel Nagar , Kishangarh , Ajmer</p>
+
+
+        </div>
+    </footer>
+</body>
+
+</html>
